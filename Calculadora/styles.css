@@ -4,27 +4,22 @@
     padding: 2.5%;
     border-radius: 5px;
 
-
-
-
-
-
-    text-align: center;
+ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     display: inline-block;
-    border: 5px solid #370528;
+    border: 5px solid #2a6853;
   
-    background-color:rgb(217, 87, 222);
+    background-color:rgb(82, 221, 140);
     width: 400px;
    
   
 }
 .titulo{
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: .1em;
     text-align:center;
     justify-content: center;
@@ -36,7 +31,7 @@
 }
 .input{
     font-size: 20px;
-    width: 95%;
+    width: 50%;
     padding: .9em;
     margin: 1%;
     border-radius: 7px;
@@ -48,7 +43,7 @@
     width: 20%;
     padding: .9em;
     margin: 1%;
-    background-color: rgb(225, 43, 43);
+    background-color: rgb(188, 221, 97);
     color: black;
     border: none;
     border-radius: 7px;
@@ -63,12 +58,4 @@ body {
     height: 100vh;
     
 }
-/*media query
- para pantallas menores
- a 789*/
- @media(width <=768px){
-    .container{
-       background-color: blueviolet; 
-    }
- }
 
