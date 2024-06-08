@@ -33,7 +33,7 @@ p{
     margin: .3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.hobie{
+.hobbie{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,11 +98,9 @@ th{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(196, 120, 28, 0.503);
     width: 20em;
+    font-size: 4vh;
 }
 
-
-
-/*media query para pantallas menores a 768px*/
 @media(width<=768px){
     .ordenar{
       display: flex;
@@ -117,3 +115,10 @@ th{
         width: 50%;
         height: none;
     }
+    th{
+        font-size: 2vh;
+    }
+    td{
+        font-size: 2vh; 
+    }
+}
