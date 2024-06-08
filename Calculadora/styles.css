@@ -27,8 +27,6 @@ input{
 }
 
 
-
-/*media query para pantallas menores a 768px*/
 @media(width<=700px){
    .titulo{
         font-size: 3em;
