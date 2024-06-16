@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;  
+}
+button{
+    width: 95%;
+    padding: .9em;
+    margin: 1%;
+    background-color: #554d81;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.subtitulo{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 6vh;
+}
+.titulo{
+    text-align: center;
+    font-size: 10vh;
+}
+input{
+    font-size: 2em;
+}
+
+
+@media(width<=700px){
+   .titulo{
+        font-size: 3em;
+    }  
+    .subtitulo{
+        font-size: 1.5em;
+    }
+    input{
+        font-size: 1em;
+    }
+}
