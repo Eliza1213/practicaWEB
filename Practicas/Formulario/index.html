@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion de Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <label for="username">Nombre de Usuario:</label><br>
+            <input type="text" id="username" name="username" placeholder="Nombre" pattern="^[a-zA-Z0-9]{5,15}$"
+            title="Debe tener entre 5 y 15 caracteres alfanuméricos" required></label><br>
+            <br>
+            <label for="password">Ingrese la Contraseña:</label><br>
+            <input type="password" id="password" name="password" placeholder="contraseña" 
+            pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_+{}|:;'<>\/?.,="]).{8,}$" 
+            title="Mínimo 8 caráteres,1 mayuscula,1 minuscula,1 número y 1 simbolo especial"
+            required></label><br>
+            <br>
+            <label for="email">Ingrese Correo Electrónico</label><br>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico"
+            pattern=="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+            title="Correo Electrónico Válido" required><br>
+            <br>
+            <label for="telefono">Ingrese un Número de Teléfono</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="Número de telefono"
+            pattern="^\+?[0-9]{10,15}$" title="formato de número internacional (+ y 10-15 dígitos)"
+            required><br>
+            <br>
+            <label for="fechaNaci">Ingresa tu Fecha de Nacimiento</label><br>
+            <input type="date" id="fechaNaci" name="fechaNaci" placeholder="yyyy-mm-dd"
+            pattern="^(?:(?:[0-9]{4})-((?:0[1-9])|(1[0-2]))-((?:[0-9]{1,2})))$"
+            title="Formato de fecha yyyy-mm-dd" required><br>
+            <br>
+            <label for="codigoPos">Código Postal</label><br>
+            <input type="number" id="codigoPos" name="codigoPos" placeholder="5 dígitos" pattern="[0-9]{5}"
+            title="El código debe contener exactamente 5 dígitos" required><br>
+            <br>
+            <button type="submit">Registrarse</button>
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
