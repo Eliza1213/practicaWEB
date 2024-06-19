@@ -10,7 +10,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilos del formulario */
 .form-container {
     width: 80%;
     max-width: 500px;
@@ -18,7 +17,6 @@ h1 {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     text-align: center;
     align-items: center;
@@ -44,7 +42,13 @@ input[type="password"] {
     margin-bottom: 15px;
     box-sizing: border-box;
     background-color: rgba(128, 128, 128, 0.788);
+    font-size: 1em;
 }
 ::placeholder{
     color: rgba(0, 0, 0, 0.659);
+}
+button{
+    font-size: 1.2em;
+    display: flex;
+    background-color: rgba(100, 148, 237, 0.686);
 }
